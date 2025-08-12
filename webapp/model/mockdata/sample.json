@@ -1,0 +1,97 @@
+{
+  "batchId": "BATCH20250808T101500Z",
+  "Invoices": [
+    {
+      "seqNo": 1,
+      "invoiceNumber": "INV001",
+      "companyCode": "1000",
+      "fiscalYear": "2025",
+      "postingDate": "2025-08-07",
+      "vendorCode": "V10001",
+      "currency": "INR",
+      "invoiceItems": [
+        { "itemNo": 10, "glAccount": "400000", "amount": 5000, "costCenter": "CC100" },
+        { "itemNo": 20, "glAccount": "500000", "amount": 2500, "costCenter": "CC200" }
+      ]
+    },
+    {
+      "seqNo": 2,
+      "invoiceNumber": "INV002",
+      "companyCode": "1000",
+      "fiscalYear": "2025",
+      "postingDate": "2025-08-07",
+      "vendorCode": "V10002",
+      "currency": "INR",
+      "invoiceItems": [
+        { "itemNo": 10, "glAccount": "400100", "amount": 1200, "costCenter": "CC101" },
+        { "itemNo": 20, "glAccount": "500100", "amount": 800, "costCenter": "CC102" },
+        { "itemNo": 30, "glAccount": "500200", "amount": 900, "costCenter": "CC103" }
+      ]
+    },
+    {
+      "seqNo": 3,
+      "invoiceNumber": "INV003",
+      "companyCode": "2000",
+      "fiscalYear": "2025",
+      "postingDate": "2025-08-06",
+      "vendorCode": "V20001",
+      "currency": "USD",
+      "invoiceItems": [
+        { "itemNo": 10, "glAccount": "410000", "amount": 1000, "costCenter": "CC200" },
+        { "itemNo": 20, "glAccount": "510000", "amount": 2000, "costCenter": "CC201" }
+      ]
+    },
+    {
+      "seqNo": 4,
+      "invoiceNumber": "INV004",
+      "companyCode": "2000",
+      "fiscalYear": "2025",
+      "postingDate": "2025-08-06",
+      "vendorCode": "V20002",
+      "currency": "USD",
+      "invoiceItems": [
+        { "itemNo": 10, "glAccount": "420000", "amount": 500, "costCenter": "CC202" },
+        { "itemNo": 20, "glAccount": "520000", "amount": 1500, "costCenter": "CC203" }
+      ]
+    },
+    {
+      "seqNo": 5,
+      "invoiceNumber": "INV005",
+      "companyCode": "3000",
+      "fiscalYear": "2025",
+      "postingDate": "2025-08-05",
+      "vendorCode": "V30001",
+      "currency": "EUR",
+      "invoiceItems": [
+        { "itemNo": 10, "glAccount": "430000", "amount": 2200, "costCenter": "CC300" },
+        { "itemNo": 20, "glAccount": "530000", "amount": 3200, "costCenter": "CC301" }
+      ]
+    },
+    {
+      "seqNo": 6,
+      "invoiceNumber": "INV006",
+      "companyCode": "3000",
+      "fiscalYear": "2025",
+      "postingDate": "2025-08-05",
+      "vendorCode": "V30002",
+      "currency": "EUR",
+      "invoiceItems": [
+        { "itemNo": 10, "glAccount": "440000", "amount": 4200, "costCenter": "CC302" },
+        { "itemNo": 20, "glAccount": "540000", "amount": 1800, "costCenter": "CC303" }
+      ]
+    },
+    {
+      "seqNo": 7,
+      "invoiceNumber": "INV007",
+      "companyCode": "4000",
+      "fiscalYear": "2025",
+      "postingDate": "2025-08-04",
+      "vendorCode": "V40001",
+      "currency": "GBP",
+      "invoiceItems": [
+        { "itemNo": 10, "glAccount": "450000", "amount": 1000, "costCenter": "CC400" },
+        { "itemNo": 20, "glAccount": "550000", "amount": 500, "costCenter": "CC401" }
+      ]
+    }
+  ]
+}

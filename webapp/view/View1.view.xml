@@ -1,0 +1,18 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <List
+		items="{global>/Invoices}"
+		headerText="Invoices">
+		<ObjectListItem
+			title="{global>seqNo}"
+			intro="{global>invoiceNumber}"
+			number="{global>vendorCode}"
+			numberUnit="Comp.code {global>companyCode}"
+			type="Active"
+			press="onListItemPress">
+		</ObjectListItem>
+	</List>
+    </Page>
+</mvc:View>
