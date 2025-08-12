@@ -2,13 +2,19 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
+		<subHeader>
+			<OverflowToolbar>
+				<SearchField liveChange="onSearch" />
+			</OverflowToolbar>
+		</subHeader>
         <List
 		items="{global>/Invoices}"
-		headerText="Invoices">
+		headerText="Invoices"
+		id ="idList">
 		<ObjectListItem
-			title="{global>seqNo}"
+			title="{global>vendorCode}"
 			intro="{global>invoiceNumber}"
-			number="{global>vendorCode}"
+			number="{global>seqNo}"
 			numberUnit="Comp.code {global>companyCode}"
 			type="Active"
 			press="onListItemPress">

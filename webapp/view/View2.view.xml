@@ -46,7 +46,7 @@ xmlns:mvc="sap.ui.core.mvc" controllerName="project1.controller.View2">
                     id="postBtn"
                     text="Post"
                     type="Emphasized"
-                    press=".onPost"
+                    press="onPost"
                     enabled="{viewModel>/postEnabled}" />
             </Toolbar>
         </footer>
