@@ -1,5 +1,6 @@
+
 {
-  "batchId": "BATCH20250808T101500Z",
+  "batchId": "BATCH20250812T111500Z",
   "Invoices": [
     {
       "seqNo": 1,
@@ -7,7 +8,7 @@
       "companyCode": "1000",
       "fiscalYear": "2025",
       "postingDate": "2025-08-07",
-      "vendorCode": "V10001",
+      "vendorCode": "0000000057",
       "currency": "INR",
       "invoiceItems": [
         { "itemNo": 10, "glAccount": "400000", "amount": 5000, "costCenter": "CC100" },
@@ -20,12 +21,11 @@
       "companyCode": "1000",
       "fiscalYear": "2025",
       "postingDate": "2025-08-07",
-      "vendorCode": "V10002",
+      "vendorCode": "8800000000",
       "currency": "INR",
       "invoiceItems": [
         { "itemNo": 10, "glAccount": "400100", "amount": 1200, "costCenter": "CC101" },
-        { "itemNo": 20, "glAccount": "500100", "amount": 800, "costCenter": "CC102" },
-        { "itemNo": 30, "glAccount": "500200", "amount": 900, "costCenter": "CC103" }
+        { "itemNo": 20, "glAccount": "500100", "amount": 800, "costCenter": "CC102" }
       ]
     },
     {
@@ -34,7 +34,7 @@
       "companyCode": "2000",
       "fiscalYear": "2025",
       "postingDate": "2025-08-06",
-      "vendorCode": "V20001",
+      "vendorCode": "8800000002",
       "currency": "USD",
       "invoiceItems": [
         { "itemNo": 10, "glAccount": "410000", "amount": 1000, "costCenter": "CC200" },
@@ -47,7 +47,7 @@
       "companyCode": "2000",
       "fiscalYear": "2025",
       "postingDate": "2025-08-06",
-      "vendorCode": "V20002",
+      "vendorCode": "CD01",
       "currency": "USD",
       "invoiceItems": [
         { "itemNo": 10, "glAccount": "420000", "amount": 500, "costCenter": "CC202" },
@@ -60,7 +60,7 @@
       "companyCode": "3000",
       "fiscalYear": "2025",
       "postingDate": "2025-08-05",
-      "vendorCode": "V30001",
+      "vendorCode": "0000000104",
       "currency": "EUR",
       "invoiceItems": [
         { "itemNo": 10, "glAccount": "430000", "amount": 2200, "costCenter": "CC300" },
@@ -73,7 +73,7 @@
       "companyCode": "3000",
       "fiscalYear": "2025",
       "postingDate": "2025-08-05",
-      "vendorCode": "V30002",
+      "vendorCode": "0000004293",
       "currency": "EUR",
       "invoiceItems": [
         { "itemNo": 10, "glAccount": "440000", "amount": 4200, "costCenter": "CC302" },

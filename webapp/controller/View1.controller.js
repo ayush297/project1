@@ -24,9 +24,10 @@ sap.ui.define([
 			var sQuery = oEvent.getSource().getValue();
 			if (sQuery && sQuery.length > 0) {
 				var filter1 = new Filter("vendorCode", FilterOperator.Contains, sQuery);
-                var filter2 = new Filter("companyCode", FilterOperator.Contains, sQuery);   
+                var filter2 = new Filter("companyCode", FilterOperator.Contains, sQuery);
+                var filter3 = new Filter("invoiceNumber", FilterOperator.Contains, sQuery);   
                 var oFinalFilter = new sap.ui.model.Filter({
-                filters: [filter1, filter2],
+                filters: [filter1, filter2, filter3],
                 and: false
             });
 				aFilters.push(oFinalFilter);

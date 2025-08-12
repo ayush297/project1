@@ -2,9 +2,18 @@
 xmlns="sap.m" 
 xmlns:mvc="sap.ui.core.mvc" controllerName="project1.controller.View2">
     <Page>
+    <Bar>
+        <contentLeft>
+            <Text text="Invoice Management App"/>
+        </contentLeft>
+        <contentRight>
+            <Image src= "https://media2.dev.to/dynamic/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F5536%2F446ed79d-e1c8-400a-8ee5-11cf4d30f908.png" 
+            width="30px" height="30px" />
+        </contentRight>
+    </Bar>
         <ObjectHeader
             title="{global>invoiceNumber}"
-            intro="{global>vendorCode}"
+            intro="{global>seqNo}"
             number="{global>vendorCode}"
             numberUnit="Company Code {global>companyCode}">
         </ObjectHeader>
